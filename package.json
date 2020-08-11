@@ -1,0 +1,20 @@
+{
+  "name": "playstore-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playstoreServer.js",
+  "scripts": {
+    "start": "node playstoreServer.js",
+    "dev": "nodemon playstoreServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
